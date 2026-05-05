@@ -1,0 +1,11 @@
+apiVersion: v1
+description: A Helm chart for Docker Registry
+name: docker-registry
+version: 1.0.0
+appVersion: 2.8.1
+home: https://hub.docker.com/_/registry/
+sources:
+  - https://github.com/christolis/docker-regisry
+maintainers:
+  - name: Chris Sdogkos
+    email: work@chris-sdogkos.com
