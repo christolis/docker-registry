@@ -69,6 +69,12 @@ secrets:
   haSharedSecret: ""
   htpasswd: ""
 
+  # If you have an existing htpasswd secret, set this to the name of that secret
+  # and it will be used instead of directly referencing it here. This is useful
+  # if you want to manage the htpasswd secret outside of this chart.
+  # existingSecretHtpasswd: docker-registry-htpasswd-secret
+  # existingSecretHtpasswdKey: htpasswd
+
 # Secrets for Azure
 #   azure:
 #     accountName: ""
